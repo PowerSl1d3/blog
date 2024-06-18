@@ -64,6 +64,10 @@ nav li a.selected {
     text-decoration: underline;
 }
 
+ul li {
+    margin-top: 10px;
+}
+
 h1 {
     margin-bottom: 20px;
     font-size: 2em;
