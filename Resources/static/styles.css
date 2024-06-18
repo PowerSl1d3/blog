@@ -64,8 +64,11 @@ nav li a.selected {
     text-decoration: underline;
 }
 
+/* Отступы между элементов списка */
 ul li {
     margin-top: 10px;
+    line-height: 1.5;
+    font-size: large;
 }
 
 h1 {
@@ -78,9 +81,12 @@ h2 {
     margin: 20px 0;
 }
 
+h3 {
+    margin: 20px 0;
+}
+
 p {
     margin-bottom: 10px;
-    line-height: 1.5;
 }
 
 a {
@@ -137,6 +143,12 @@ a {
 
 .content {
     margin-bottom: 40px;
+}
+
+.content p {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: large;
 }
 
 .browse-all {
